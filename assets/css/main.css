@@ -2226,7 +2226,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: square;
 		margin: 0 0 2.25em 0;
 		padding-left: 1em;
 	}
@@ -2438,7 +2438,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.25em;
+				font-size: 2.25em;
 			}
 
 /* Table */
