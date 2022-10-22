@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 i {
-	color: #4acaa8;
+	color: #2a168d;
 	font-size: xx-large; 
 }
 
@@ -138,7 +138,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #010326;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -205,7 +205,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: #555;
+		background: #010326 /*background: #555; */
 		border-radius: 5px;
 		color: #fff;
 		font-family: "Source Code Pro", monospace;
@@ -1789,12 +1789,13 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		/* text */
+		color: #6FBFBF;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #010326;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2408,16 +2409,17 @@ input, select, textarea {
 
 			ul.feature-icons li:before {
 				background: #4acaa8;
+				/* icons green */
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
-				height: 2.5em;
+				height: 1.5em;
 				left: 0;
-				line-height: 2.5em;
+				line-height: 0.1em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
+				width: 1.5em;
 			}
 
 /* Icons */
@@ -2705,7 +2707,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		/* Right background */
+		background: #6FBFBF;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2721,15 +2724,17 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #393E59;
 			}
 
 		#header header p {
-			color: #b7eadc;
+			/* color: #010326; */
+			color: #393E59;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			/* color: #d2f2e9; */
+			
 		}
 
 			#header a:hover {
@@ -2756,7 +2761,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #010326;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2777,7 +2782,8 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					/* color: #b7eadc; */
+					 
 				}
 
 		#header > nav {
@@ -2805,7 +2811,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #393E59 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2858,7 +2864,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #d4d4d4;
+				border-left: solid 1px #D4D4D4;
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;
@@ -3035,7 +3041,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #ccc;
 				color: #fff;
 				min-width: 320px;
 			}
