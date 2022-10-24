@@ -117,7 +117,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		/* border-bottom: solid 1px #e4e4e4; */
-		border-bottom: solid 1px #d41b1b;
+		border-bottom: solid 1px #6FBFBF;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1798,8 +1798,9 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		/* text */
-		color: #6FBFBF;
+		/* text Where from here first line*/
+		color: #6FBFBF; 
+		
 		font-size: 3.5em;
 	}
 
@@ -1817,7 +1818,8 @@ input, select, textarea {
 	}
 
 	label {
-		color: #393E59;
+		/* color: #393E59; */
+		color: #f00;
 		/* color: #777; */
 		display: block;
 		font-size: 0.9em;
@@ -1835,6 +1837,7 @@ input, select, textarea {
 	input[type="email"],
 	select,
 	textarea {
+		-webkit-text-fill-color: #6fBFBF !important;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -1842,7 +1845,7 @@ input, select, textarea {
 		border-radius: 5px;
 		border: none;
 		/* border: solid 2px #e4e4e4; */
-		border: solid 2px #F0F2F2;
+		border: solid 2px #393E59;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1856,7 +1859,7 @@ input, select, textarea {
 		input[type="email"]:invalid,
 		select:invalid,
 		textarea:invalid {
-			box-shadow: none;
+			box-shadow: 5px 10px #010326;
 		}
 
 		input[type="text"]:focus,
@@ -1898,10 +1901,13 @@ input, select, textarea {
 	input[type="email"],
 	select {
 		height: 2.75em;
+		-webkit-text-fill-color: #6fBFBF !important;
+		
 	}
 
 	textarea {
 		padding: 0.75em 1em;
+		background-color: white;
 	}
 
 	input[type="checkbox"],
@@ -1922,7 +1928,8 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			/* color: #888; */
-			color: #82D9D9;
+			/* color: #82D9D9; */
+			color: #000;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1936,6 +1943,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
+				
 				display: inline-block;
 				font-style: normal;
 				font-variant: normal;
@@ -2234,6 +2242,7 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			height: 20em;
+			/* height: 20em;*/
 			border-radius: 0;
 		}
 
@@ -2416,7 +2425,7 @@ input, select, textarea {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
+			padding: 0.35em 1.0em 0 3.5em;
 			position: relative;
 			vertical-align: top;
 			width: 48%;
@@ -2429,7 +2438,8 @@ input, select, textarea {
 				font-style: normal;
 				font-variant: normal;
 				text-rendering: auto;
-				line-height: 1;
+				/* line-height: 1; */
+				line-height: 1em;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
